@@ -1,0 +1,140 @@
+.header-fiscales {
+  background-color: var(--color-primary);
+  background-image: url(../multimedia/images/fiscales-bg.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header-container-fiscales,
+.header-container-contabilidad,
+.header-container-legales,
+.header-container-nominas,
+.header-container-patrimonial,
+.header-container-noticias {
+  background-color: var(--color-special-50);
+}
+
+.lista-servicios li::marker {
+  color: var(--color-special);
+  font-size: var(--fsize-xs2);
+}
+
+.lista-servicios li {
+  font-size: var(--fsize-xs2);
+  line-height: 2.4rem;
+}
+
+.equipo {
+  background-color: var(--color-special-50);
+  /* background-image: url(../multimedia/logos/gbp.svg); */
+  background-position: center;
+  background-size: 280px 110px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.servicios-text-2 {
+  text-align: center;
+}
+
+.servicios-text-2 h4 {
+  color: var(--color-special);
+  font-weight: bold;
+}
+
+.servicios-text-2 span {
+  text-align: center;
+  color: var(--color-special-80);
+  font-weight: bold;
+}
+
+.aviso {
+  background-color: var(--color-secondary);
+  /* background-image: url(../multimedia/logos/gbp.svg); */
+  background-position: center;
+  background-size: 280px 110px;
+}
+
+/* Contabilidad */
+.header-contabilidad {
+  background-color: var(--color-primary);
+  /* background-image: url(../multimedia/images/contabilidad-bg.jpg); */
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* Legales */
+.header-legales {
+  background-color: var(--color-primary);
+  background-image: url(../multimedia/images/legales-bg.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* Nominas */
+.header-nominas {
+  background-color: var(--color-primary);
+  background-image: url(../multimedia/images/nominas-bg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* Patrimonial */
+.header-patrimonial {
+  background-color: var(--color-primary);
+  background-image: url(../multimedia/images/patrimonial-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header-contacto {
+  background-color: var(--color-special-dark);
+  padding-top: 105px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header-unete {
+  background-color: var(--color-special-dark);
+  padding-top: 105px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header-noticias {
+  background-color: var(--color-primary);
+  background-image: url(../multimedia/images/noticias-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 !important;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* Sobreescribir css */
+.nosotros-p {
+  color: var(--color-primary);
+  padding-top: 1.5rem;
+}
+
+.w-special {
+  width: 73%;
+}

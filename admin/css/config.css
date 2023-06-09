@@ -1,0 +1,171 @@
+body {
+    background-color: #fff !important;
+}
+
+small {
+    color: rgb(104, 104, 104);
+    font-size: 50%;
+}
+
+.login-page .main-footer {
+    display: none;
+}
+
+.success>input,
+.success>span,
+.success {
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.invalid>input,
+.invalid>span,
+.invalid {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+
+/* .success > input{
+ color: #28a745 !important;
+ border-color: #28a745 !important;
+}
+.invalid > input{
+color: #dc3545 !important;
+border-color:#dc3545 !important;
+}
+.success > span{
+ color: #28a745 !important;
+ border-color: #28a745 !important;
+}
+.invalid > span{
+color: #dc3545 !important;
+border-color:#dc3545 !important;
+} */
+
+.btn-login {
+    background: #1E1B62;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-login:hover,
+.btn-login:active,
+.btn-login:focus {
+    background: #0071D7 !important;
+    color: #FFFFFF;
+}
+
+.sombra-logo {
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+}
+
+.login-page {
+    background-color: #F1F4F8 !important;
+}
+
+.login-card-body {
+    border-radius: 5px;
+}
+
+/* Colores del panel */
+
+.navbar-special {
+    background-color: #012A48;
+}
+
+.navbar-special .navbar-nav .nav-link {
+    color: #C2C7D0;
+}
+
+.sidebar-dark-primary {
+    background-color: #012A48;
+}
+
+.user-panel, .brand-link {
+    border-bottom: 1px solid rgba(255, 255, 255, .1) !important;
+}
+
+/* botones tablas */
+
+div.dataTables_wrapper div.dataTables_info {
+    white-space: pre-wrap !important;
+}
+
+.dt-buttons {
+    margin-bottom: .5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0.5rem 0.85rem;
+} */
+
+.btn-excel {
+    margin-right: 5px;
+    color: #fff;
+    background-color: #024270;
+    border-color: #024270;
+    border-radius: 0.2rem !important;
+}
+
+.btn-excel:hover {
+    color: #fff;
+    background-color: #012A48;
+    border-color: #012A48;
+}
+
+.btn-pdf {
+    margin-right: 5px;
+    color: #fff;
+    background-color: #024270;
+    border-color: #024270;
+    border-radius: 0.2rem !important;
+}
+
+.btn-pdf:hover {
+    color: #fff;
+    background-color: #012A48;
+    border-color: #012A48;
+}
+
+.btn-print {
+    margin-right: 5px;
+    color: #fff;
+    background-color: #024270;
+    border-color: #024270;
+    border-radius: 0.2rem !important;
+}
+
+.btn-print:hover {
+    color: #fff;
+    background-color: #012A48;
+    border-color: #012A48;
+}
+
+/* colores de tabla */
+.table .thead-dark th {
+    background: linear-gradient(to bottom, rgba(1, 42, 72, 1) 0%, rgba(1, 51, 87, 1) 100%);
+    border-color: #012A48;
+    color: rgba(255, 255, 255, .9);
+}
+
+.tab-hov tbody tr:hover {
+    background-color: rgba(42, 70, 134, .4);
+    border-color: #2A4686;
+}
+
+.td-center {
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+}

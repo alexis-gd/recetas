@@ -1,0 +1,39 @@
+@keyframes bottomTop {
+  from {
+    transform: translateY(10px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes arrowMove {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(15px);
+  }
+}
+
+@keyframes imgZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes bottomTop2 {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
